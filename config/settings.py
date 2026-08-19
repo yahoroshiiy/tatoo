@@ -12,5 +12,6 @@ WSGI_APPLICATION="config.wsgi.application"
 STATIC_URL="/static/"
 STATIC_ROOT=BASE_DIR/"staticfiles"
 STATICFILES_DIRS=[BASE_DIR/"siteapp"/"static"]
+STATICFILES_STORAGE="whitenoise.storage.CompressedStaticFilesStorage"
 STORAGES={"staticfiles":{"BACKEND":"whitenoise.storage.CompressedStaticFilesStorage"}}
 DEFAULT_AUTO_FIELD="django.db.models.BigAutoField"
