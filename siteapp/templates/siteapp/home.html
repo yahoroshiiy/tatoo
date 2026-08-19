@@ -1,0 +1,73 @@
+{% load static %}<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>NOIR — Tattoo & Piercing Studio</title>
+<meta name="description" content="Тату и пирсинг студия. Авторские эскизы, аккуратная работа, стерильность и запись онлайн.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'siteapp/style.css' %}">
+</head>
+<body>
+<div class="topline"><span>OPEN TODAY · 11:00—21:00</span><b>Москва · запись онлайн</b><span>16+ · консультация бесплатно</span></div>
+<header class="header" id="header">
+  <a class="brand" href="#top"><span class="brand-mark">N</span><span><strong>NOIR</strong><small>TATTOO · PIERCING</small></span></a>
+  <nav><a href="#works">Работы</a><a href="#services">Услуги</a><a href="#artists">Мастера</a><a href="#studio">Студия</a></nav>
+  <button class="header-book" data-book>Записаться <span>↗</span></button>
+  <button class="menu-btn" aria-label="Открыть меню"><i></i><i></i></button>
+</header>
+<div class="mobile-menu"><a href="#works">Работы</a><a href="#services">Услуги</a><a href="#artists">Мастера</a><a href="#studio">Студия</a><button data-book>Записаться</button></div>
+<main id="top">
+<section class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow">BODY ART · MOSCOW</div>
+    <h1>Татуировки,<br><em>которые остаются.</em></h1>
+    <p>Авторские татуировки и аккуратный пирсинг без конвейера. Разрабатываем эскиз под вас, работаем стерильно и доводим идею до результата, которым хочется хвастаться.</p>
+    <div class="hero-actions"><button class="btn primary" data-book>Записаться на сеанс <span>↗</span></button><a class="ghost-link" href="#works">Смотреть работы <span>↓</span></a></div>
+    <div class="proof"><div><strong>4.9</strong><span>рейтинг клиентов</span></div><div><strong>1 200+</strong><span>сеансов в студии</span></div><div><strong>8 лет</strong><span>в body art</span></div></div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-frame"><img src="https://images.pexels.com/photos/7005733/pexels-photo-7005733.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Тату-мастер за работой"></div>
+    <div class="floating-note"><span class="live-dot"></span><div><b>Свободные окна</b><small>на этой неделе</small></div></div>
+    <div class="vertical-word">CUSTOM · CARE · CRAFT</div>
+    <div class="ink-circle">INK<br><i>&</i><br>STEEL</div>
+  </div>
+</section>
+<section class="ticker"><div>ТАТУ · ПИРСИНГ · ЭСКИЗЫ · КОНСУЛЬТАЦИЯ · СТЕРИЛЬНОСТЬ · ТАТУ · ПИРСИНГ · ЭСКИЗЫ · КОНСУЛЬТАЦИЯ</div></section>
+<section class="section works" id="works">
+  <div class="section-head"><div><div class="eyebrow">ПОРТФОЛИО</div><h2>Работы, за которыми<br><em>говорит стиль.</em></h2></div><button class="text-link" data-book>Обсудить свою идею <span>↗</span></button></div>
+  <div class="work-grid">
+    <article class="work-card large"><img src="https://images.pexels.com/photos/36170868/pexels-photo-36170868.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Татуировка на руке"><div class="work-overlay"><span>BLACKWORK</span><b>Графика · рука</b></div></article>
+    <article class="work-card"><img src="https://images.pexels.com/photos/29211911/pexels-photo-29211911.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Процесс татуировки"><div class="work-overlay"><span>FINE LINE</span><b>Тонкие линии · custom</b></div></article>
+    <article class="work-card"><img src="https://images.pexels.com/photos/6593422/pexels-photo-6593422.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Инструменты тату-мастера"><div class="work-overlay"><span>PROCESS</span><b>Детали работы</b></div></article>
+    <article class="work-card"><img src="https://images.pexels.com/photos/15799256/pexels-photo-15799256.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Пирсинг уха"><div class="work-overlay"><span>PIERCING</span><b>Ear styling · jewelry</b></div></article>
+    <article class="work-card wide"><img src="https://images.pexels.com/photos/7400018/pexels-photo-7400018.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Пирсинг уха крупным планом"><div class="work-overlay"><span>JEWELRY</span><b>Минималистичный сет</b></div></article>
+  </div>
+</section>
+<section class="services section" id="services">
+ <div class="section-head simple"><div><div class="eyebrow">ЧТО ДЕЛАЕМ</div><h2>От первой идеи<br>до готового <em>результата.</em></h2></div></div>
+ <div class="service-grid">
+   <article class="service-card featured"><div class="service-num">01</div><div><span>TATTOO</span><h3>Авторские<br>татуировки</h3><p>Blackwork, fine line, графика, минимализм и цвет. Эскиз создаём под вашу историю и анатомию.</p><button data-book>Обсудить тату <b>↗</b></button></div></article>
+   <article class="service-card"><div class="service-num">02</div><div><span>PIERCING</span><h3>Пирсинг<br>и ear styling</h3><p>Проколы, подбор украшений и композиции для уха. Только качественный имплантационный титан.</p><button data-book>Записаться <b>↗</b></button></div></article>
+   <article class="service-card"><div class="service-num">03</div><div><span>DESIGN</span><h3>Эскиз<br>с нуля</h3><p>Если идея есть, но картинки нет — соберём концепцию, референсы и композицию вместе.</p><button data-book>Начать с идеи <b>↗</b></button></div></article>
+ </div>
+</section>
+<section class="split-section" id="studio">
+ <div class="split-image"><img src="https://images.pexels.com/photos/35658361/pexels-photo-35658361.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Рабочее место в тату-студии"></div>
+ <div class="split-copy"><div class="eyebrow">СТУДИЯ</div><h2>Чисто.<br>Спокойно.<br><em>По-своему.</em></h2><p>Мы сделали пространство, где можно расслабиться перед сеансом и не чувствовать себя в потоке. Отдельные рабочие зоны, одноразовые расходники и строгий контроль стерильности.</p><div class="studio-points"><div><b>01</b><span>Одноразовые расходники и стерильный инструмент</span></div><div><b>02</b><span>Консультация перед каждым сеансом</span></div><div><b>03</b><span>Фото результата после работы</span></div></div><button class="btn dark" data-book>Приехать на консультацию <span>↗</span></button></div>
+</section>
+<section class="artists section" id="artists">
+ <div class="section-head"><div><div class="eyebrow">КОМАНДА</div><h2>Мастера,<br><em>а не поток.</em></h2></div><span class="small-note">У каждого свой стиль.<br>Выбирайте того, кто ваш.</span></div>
+ <div class="artist-grid">
+  <article class="artist"><img src="https://images.pexels.com/photos/7005733/pexels-photo-7005733.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Мастер тату"><div><span>TATTOO · BLACKWORK</span><h3>Марк</h3><p>Графика, blackwork, крупные композиции.</p></div></article>
+  <article class="artist"><img src="https://images.pexels.com/photos/28991541/pexels-photo-28991541.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Тату-мастер"><div><span>TATTOO · FINE LINE</span><h3>Лера</h3><p>Fine line, ботаника, минимализм.</p></div></article>
+  <article class="artist"><img src="https://images.pexels.com/photos/15799256/pexels-photo-15799256.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Пирсер"><div><span>PIERCING · JEWELRY</span><h3>Аня</h3><p>Пирсинг и подбор украшений для ear styling.</p></div></article>
+ </div>
+</section>
+<section class="dark-cta"><div><div class="eyebrow">ГОТОВЫ?</div><h2>Расскажите идею.<br><em>Остальное сделаем вместе.</em></h2><p>Напишите, что хотите сделать, примерный размер и место. Ответим, подскажем по стоимости и предложим ближайшие окна.</p><button class="btn light" data-book>Записаться на консультацию <span>↗</span></button></div><div class="cta-mark">NOIR<br><span>BODY STUDIO</span></div></section>
+</main>
+<footer><div class="footer-brand"><a class="brand" href="#top"><span class="brand-mark">N</span><span><strong>NOIR</strong><small>TATTOO · PIERCING</small></span></a><p>Авторские татуировки и пирсинг<br>в спокойной атмосфере.</p></div><div><b>Навигация</b><a href="#works">Работы</a><a href="#services">Услуги</a><a href="#artists">Мастера</a><a href="#studio">Студия</a></div><div><b>Контакты</b><a href="tel:+79990000000">+7 999 000-00-00</a><a href="https://t.me/" target="_blank" rel="noreferrer">Telegram</a><span>Москва · 11:00—21:00</span></div><div class="footer-bottom">© 2026 NOIR · Tattoo & Piercing Studio <span>16+ · консультация бесплатна</span></div></footer>
+<div class="booking-overlay" aria-hidden="true"><div class="booking-modal"><button class="modal-close" aria-label="Закрыть">×</button><div class="booking-side"><div class="eyebrow">BOOKING</div><h2>Запишитесь<br><em>на сеанс.</em></h2><p>Оставьте контакты и пару слов об идее — мастер свяжется с вами и предложит время.</p><div class="side-facts"><span>✓ консультация бесплатно</span><span>✓ эскиз обсуждаем заранее</span><span>✓ без обязательств</span></div></div><form class="booking-form" id="bookingForm"><div class="form-row"><label>Имя<input required name="name" placeholder="Как к вам обращаться"></label><label>Телефон<input required name="phone" type="tel" placeholder="+7 999 000-00-00"></label></div><label>Что хотите сделать?<select name="type"><option>Татуировка</option><option>Пирсинг</option><option>Эскиз / консультация</option></select></label><label>Расскажите об идее<textarea name="idea" placeholder="Стиль, размер, место, референс — всё, что уже знаете"></textarea></label><button class="btn primary full" type="submit">Отправить заявку <span>↗</span></button><small>Демо-форма: реальная отправка пока не подключена.</small></form></div></div>
+<div class="success-overlay" aria-hidden="true"><div class="success-modal"><div class="success-icon">✓</div><div class="eyebrow">ЗАЯВКА ОТПРАВЛЕНА</div><h2>Свяжемся с вами<br><em>в ближайшее время.</em></h2><p>Спасибо! Мастер посмотрит описание и предложит варианты времени.</p><button class="btn primary" data-close-success>Вернуться на сайт</button></div></div>
+<script src="{% static 'siteapp/app.js' %}"></script>
+</body></html>
